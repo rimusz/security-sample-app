@@ -1,0 +1,7 @@
+*.tgz
+tmp/
+.idea
+.vscode
+.DS_Store
+*.swp
+
