@@ -1,4 +1,2 @@
-github.com/artdarek/go-unzip v0.0.0-20180315101617-33dc05190e4b h1:ffa2A5VAyby1ip4ie0UDtYnPC/QDvXissdCqQ1il/Io=
-github.com/artdarek/go-unzip v0.0.0-20180315101617-33dc05190e4b/go.mod h1:KhX4LV7e4UwWCTo7orBYnJ6LJ/dZTI6jXxUg69hO/C8=
 github.com/lib/pq v1.7.0 h1:h93mCPfUSkaul3Ka/VG8uZdmW1uMHDGxzu0NWHuJmHY=
 github.com/lib/pq v1.7.0/go.mod h1:AlVN5x4E4T544tWzH6hKfbfQvm3HdbOxrmggDNAPY9o=
