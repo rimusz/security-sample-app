@@ -1,4 +1,4 @@
-FROM golang:1.12.5-alpine AS builder
+FROM golang:1.14-alpine AS builder
 
 ADD . /root/app
 
@@ -12,7 +12,7 @@ RUN cd /root/app && \
 RUN cd /root/app && \
     CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build
 
-FROM debian:buster
+FROM gcr.io/distroless/static
 COPY --from=builder /root/app/security-sample-app /bin
 
 # Set runtime user to non-root
